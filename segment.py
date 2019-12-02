@@ -105,7 +105,7 @@ def find_strawberry(image):
     return bgr
 
 #read the image
-image = cv2.imread('D:/GritFeat/OpenCV/Object Detection/colors.jpg')
+image = cv2.imread('colors.jpg')
 result = find_strawberry(image)
 
 #show the original image
