@@ -71,7 +71,7 @@ def define_model():
     model.add(Dense(10, activation = 'softmax'))
     
     #compile model 
-    opt = Adam(lr = 0.001, momentum = 0.9)
+    opt = SGD(lr = 0.001, momentum = 0.9)
     model.compile(optimizer = opt, loss = 'categorical_crossentropy', metrics = ['accuracy'])
     return model
 
