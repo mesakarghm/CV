@@ -9,8 +9,9 @@
 First, create your own dataset with faces that needs to be recognized. For that, create a folder named "dataset" in the source directory and 
 insert around 10 pictures for every person you need to recognize under seperate folder. |
 
-eg:  ./dataset/Sakar/1.jpg,2.jpg,3.jpg 
+For example, my dataset folder looks like
 
+    ./dataset/Sakar/1.jpg,2.jpg,3.jpg ...
     ./dataset/Adam/1.jpg,2.jpg,3.jpg ...
    
 Then, create a encoding for your current dataset using the provided encode_faces.py script. 
